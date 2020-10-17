@@ -1,0 +1,28 @@
+{
+  "deviceTypes": [
+    {
+      "id": "Sensor",
+      "running": true,
+      "events": [
+        {
+          "id": "event_1",
+          "frequency": {
+            "repeat": 20,
+            "every": "minute"
+          },
+          "json": "{\n  \"Soilmoisture\": random(0, 100),\n  \"Temperature\":random(0,60),\n  \"Humidity\":random(0,100)\n}\n"
+        }
+      ],
+      "devices": [
+        {
+          "id": "7267",
+          "generated": false
+        }
+      ],
+      "managed": {
+        "enabled": false
+      }
+    }
+  ],
+  "APIKey": "a-lfsr5c-vwct7axeju"
+}
